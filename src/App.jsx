@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { body } from "framer-motion/client";
-
-const teams = ["India", "Australia", "England", "Pakistan", "New Zealand"];
-const venues = {
-  Countries: ["India", "Australia", "England", "Pakistan", "New Zealand"],
-  Cities: ["Mumbai", "Sydney", "London", "Lahore", "Auckland"],
-};
+import { teams, venues } from "./assets/data";
 
 export default function App() {
   const [team1, setTeam1] = useState("");
